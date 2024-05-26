@@ -1,0 +1,101 @@
+.abouts {
+  position: relative;
+  top: 5px;
+  width: 1340px;
+  margin-left: 5px;
+
+  background: transparent;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+}
+.name {
+  color: white;
+  border: 1px solid gray;
+  width: 350px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.name:hover {
+  box-shadow: 3px 3px 7px rgb(250, 169, 20);
+}
+.lname {
+  border: 1px solid gray;
+  width: 350px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  background-color: white;
+}
+.lname:hover {
+  box-shadow: 3px 3px 7px rgb(250, 169, 20);
+}
+.email {
+  color: white;
+  background-color: white !important;
+  border: 1px solid gray;
+  width: 350px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+}
+.email:hover {
+  box-shadow: 3px 3px 7px rgb(250, 169, 20);
+}
+.phonenum {
+  color: white;
+  background-color: white;
+  border: 1px solid gray;
+  width: 350px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+}
+.phonenum:hover {
+  box-shadow: 3px 3px 7px rgb(250, 169, 20);
+}
+.sms {
+  color: black;
+  background-color: white;
+  border: 1px solid grey;
+  width: 350px;
+  height: 190px;
+  outline: none;
+  border-radius: 5px;
+}
+.sms:hover {
+  box-shadow: 3px 3px 7px rgb(250, 169, 20);
+}
+.FormMgs {
+  position: relative;
+  top: 50px;
+  margin-left: 900px;
+  margin-bottom: -150px;
+  overflow: hidden;
+  background-color: black;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+.sendbtn {
+  width: 90px;
+  height: 45px;
+  color: rgb(244, 240, 240);
+  background-color: blueviolet;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: larger;
+}
+.sendbtn:hover {
+  color: white;
+
+  box-shadow: 3px 3px 10px rgb(250, 169, 20);
+}
+.myself {
+  color: gray;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 70px;
+}
