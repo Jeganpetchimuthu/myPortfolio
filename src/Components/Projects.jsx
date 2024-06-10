@@ -11,6 +11,12 @@ function Projects() {
       "_blank"
     );
   };
+  const handleGitOrderBack = () => {
+    window.open(
+      "https://github.com/Jeganpetchimuthu/ordermanagement_backend",
+      "_blank"
+    );
+  };
   const handleOrderDeployed = () => {
     window.open(
       "https://6652b134f3c7b765f5de6034--funny-seahorse-3ab1cf.netlify.app/",
@@ -21,6 +27,12 @@ function Projects() {
   const handlePizzaGit = () => {
     window.open("https://github.com/Jeganpetchimuthu/webcode", "_blank");
   };
+  const handlePizzaGitBack = () => {
+    window.open(
+      "https://github.com/Jeganpetchimuthu/pizzaApp_server",
+      "_blank"
+    );
+  };
   const handlePizza = () => {
     window.open("https://charming-frangollo-9908d7.netlify.app/", "_blank");
   };
@@ -29,6 +41,9 @@ function Projects() {
       "https://github.com/Jeganpetchimuthu/pinterest_client",
       "_blank"
     );
+  };
+  const handleLinkPinterestClickBack = () => {
+    window.open("https://github.com/Jeganpetchimuthu/Pinterest-App", "_blank");
   };
   const handlePinterestDeployed = () => {
     window.open("https://fluffy-croquembouche-551e65.netlify.app", "_blank");
@@ -58,6 +73,11 @@ function Projects() {
               className="projectgit"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
               onClick={handleGitOrder}
+            />
+            <img
+              className="projectgitback"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
+              onClick={handleGitOrderBack}
             />
             <img
               className="projectnetlify"
@@ -90,6 +110,11 @@ function Projects() {
               onClick={handlePizzaGit}
             />
             <img
+              className="projectgitback"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
+              onClick={handlePizzaGitBack}
+            />
+            <img
               className="projectnetlify"
               src="https://cdn.worldvectorlogo.com/logos/netlify.svg"
               onClick={handlePizza}
@@ -117,6 +142,11 @@ function Projects() {
               className="projectgit"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
               onClick={handleLinkPinterestClick}
+            />
+            <img
+              className="projectgitback"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
+              onClick={handleLinkPinterestClickBack}
             />
             <img
               className="projectnetlify"

@@ -1,5 +1,5 @@
 .Header-components {
-  position: sticky;
+  position: relative;
   top: 0px;
   margin-left: 10px;
   display: flex;

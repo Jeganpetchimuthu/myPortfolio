@@ -18,10 +18,10 @@
   left: 50px;
   width: 150px;
   height: 7vh;
-  background-color: rgb(19, 156, 156);
+  background-color: rgb(177, 225, 225);
   color: black;
-  border: 1px solid rgb(15, 167, 167);
-  border-radius: 10px;
+  border: 1px solid rgb(241, 247, 247);
+  border-radius: 50px;
   padding-left: 10px;
 }
 .about-me {
@@ -61,12 +61,13 @@
   font-weight: 600;
 }
 .resume {
-  color: rgb(27, 26, 26);
+  color: rgb(90, 86, 86);
   position: relative;
   top: -380px;
+  padding-left: 10px;
   left: 50px;
-  border: 1px solid rgb(65, 123, 127);
-  border-radius: 5px;
+  border: 1px solid rgb(121, 182, 169);
+  border-radius: 55px;
   width: 150px;
   font-family: Arial, Helvetica, sans-serif;
   transition: transform 0.3s ease;
@@ -84,5 +85,5 @@
   transform: scale(1.01);
   box-shadow: 1px 1px 1px rgb(9, 129, 121);
   border: 1px solid rgb(31, 167, 170);
-  border-radius: 5px;
+  border-radius: 55px;
 }

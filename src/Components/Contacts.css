@@ -1,12 +1,12 @@
-.abouts {
+.contactMe {
   position: relative;
   top: 5px;
   width: 1340px;
   margin-left: 5px;
-
+  background-color: red;
   background: transparent;
   backdrop-filter: blur(10px);
-  height: 100vh;
+  height: 88vh;
 }
 .name {
   color: white;
@@ -98,4 +98,7 @@
   position: absolute;
   margin-top: 180px;
   margin-left: 70px;
+}
+.Phonenumber {
+  position: relative;
 }

@@ -8,7 +8,7 @@ import Projects from "./Components/Projects";
 import Contacts from "./Components/Contacts";
 import Home from "./Components/Home";
 import Footer from "./Footer";
-//https://mern-store-gold.vercel.app/
+
 function App() {
   return (
     <div className="App">

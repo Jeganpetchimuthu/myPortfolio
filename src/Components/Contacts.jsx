@@ -30,10 +30,11 @@ function Contacts() {
     }
   };
   return (
-    <div className="abouts">
+    <div className="contactMe">
       <div className="myself">
         <h1>Get in Touch</h1>
         <h4>Email : arunjegan1996@gmail.com</h4>
+        <h4 className="Phonenumber">Phone:9751465020 </h4>
         <h4>Sivagangai ,Tamil Nadu</h4>
       </div>
 
