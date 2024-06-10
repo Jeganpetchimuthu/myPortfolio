@@ -34,7 +34,7 @@ function Home() {
 
   const handleLinkClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1AdHAQN-a00-ZeEKQXjPvCixotd2_yRvf/view?usp=sharing",
+      "https://drive.google.com/file/d/1aeFoIVySPuAJQO4dKBCaIw2qTyWep8RI/view?usp=sharing",
       "_blank"
     );
   };
