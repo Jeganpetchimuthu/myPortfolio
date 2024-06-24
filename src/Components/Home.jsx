@@ -41,19 +41,22 @@ function Home() {
 
   return (
     <div className="aboutMe">
-      <h2 className="about-container">Hey! There</h2>
+      <div className="Hey_there">
+        <h2 className="about-container">Hey! There</h2>
+      </div>
+
       <h2 className="aboutmyself">This is Jegan P</h2>
       <h2 className="wrap">I am {typedText}</h2>
       <img
         className="aboutImage"
         src="https://t4.ftcdn.net/jpg/03/13/54/57/360_F_313545701_4pSbBZzBgdXqB0H4QrujyymPeUkLEa29.jpg"
       ></img>
-      <h4 className="about-me">
+      <h3 className="about-me">
         I'm a Full Stack Web Developer(MERN), adept in building highly
         responsive, and quality web applications. My skill set and dedication to
         continuous improvement make me a valuable asset in creating innovative
         and efficient web applications.
-      </h4>
+      </h3>
       <h3 className="resume" onClick={handleLinkClick}>
         My Resume
         <span>

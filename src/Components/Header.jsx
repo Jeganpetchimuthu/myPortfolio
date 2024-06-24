@@ -14,20 +14,20 @@ function Header() {
   return (
     <div className="Header-components">
       <Link to="/">
-        <h3 className="Home">Home</h3>
+        <h2 className="Home">Home</h2>
       </Link>
       <Link to="/about">
-        <h3 className="About">About</h3>
+        <h2 className="About">About</h2>
       </Link>
       <Link to="/skills">
-        <h3 className="Skills">Skills</h3>
+        <h2 className="Skills">Skills</h2>
       </Link>
       <Link to="/projects">
-        <h3 className="Project">Projects</h3>
+        <h2 className="Project">Projects</h2>
       </Link>
 
       <img
-        className="headerimg"
+        className="headgithubmg"
         onClick={handleGitLinkClick}
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
         alt="headerimg"
@@ -39,7 +39,7 @@ function Header() {
         onClick={handleLinkedInClick}
       />
       <Link to="/contacts">
-        <h3 className="contacts">Contact</h3>
+        <h2 className="contacts">Contact</h2>
       </Link>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 function Footer() {
   return (
-    <div className="about">
+    <div className="footerContainer">
       <h2 className="footer-wrap">
         A passionate developer building the future
       </h2>

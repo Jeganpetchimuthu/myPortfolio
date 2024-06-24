@@ -1,9 +1,9 @@
 .contactMe {
   position: relative;
   top: 5px;
-  width: 1340px;
-  margin-left: 5px;
-  background-color: red;
+  width: 1640px;
+  margin-left: 15px;
+  background-color: rgb(124, 120, 120);
   background: transparent;
   backdrop-filter: blur(10px);
   height: 88vh;
@@ -71,7 +71,7 @@
 .FormMgs {
   position: relative;
   top: 50px;
-  margin-left: 900px;
+  margin-left: 1100px;
   margin-bottom: -150px;
   overflow: hidden;
   background-color: black;

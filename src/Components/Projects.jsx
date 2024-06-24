@@ -46,7 +46,7 @@ function Projects() {
     window.open("https://github.com/Jeganpetchimuthu/Pinterest-App", "_blank");
   };
   const handlePinterestDeployed = () => {
-    window.open("https://fluffy-croquembouche-551e65.netlify.app", "_blank");
+    window.open("https://charming-monstera-ca7395.netlify.app/", "_blank");
   };
 
   return (
